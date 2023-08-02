@@ -17,8 +17,8 @@
 /* Smooth Scroll Script */
     
         document.addEventListener('DOMContentLoaded', function() {
-            const navLinks = document.querySelectorAll('.menu a');
-          
+            const navLinks = document.querySelectorAll('.menu a' );
+            
             for (const link of navLinks) {
               link.addEventListener('click', smoothScroll);
             }
